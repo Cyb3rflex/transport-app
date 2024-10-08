@@ -105,7 +105,7 @@ const SignUp = () => {
                 onChange={handleCheckboxChange}
                 required
                 />
-                <p>i agree with KWARA RIDE terms, privacy <br />  
+                <p id='agree'>i agree with KWARA RIDE terms, privacy <br />  
                    policy, and default notification setting</p>
             </label>
         </div>
@@ -116,7 +116,7 @@ const SignUp = () => {
              
        </form>
          <p id='note'>Already have an account? <a href="./signin"  ></a> 
-        <Link to='/signin'  rel=''>log in</Link>
+           <Link to='/signin'  rel="">log in</Link>
         </p>
          </div>
       </div>    

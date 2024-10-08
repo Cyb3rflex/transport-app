@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 import image from '../image.jpg'
 import './signin.css'
 import photo from '../photo.jpg'
-
+import SignUp from "./signup";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const SignIn = () => {
    const[email, setEmail] = useState('');
@@ -28,7 +28,7 @@ const SignIn = () => {
             <button id="but">
                 <img src={photo} alt="" />
             sign in with Google
-            </button>
+            </button> <br/>
             
             <form onSubmit={handleSignIn}>
             <div>
@@ -42,21 +42,28 @@ const SignIn = () => {
              required
              />
             </div>
+            <br />
             <div>
-                <label>password</label>
+                <label>Password</label> <br />
                 <input 
                 id="word"
                 type="password" 
                 value={password}
-                onChange={(e) => setPassword(e.target.vaue)}
+                onChange={(e) => setPassword(e.target.value)}
                 required
                 />
             </div>
-            <button type="submit">sign in</button>
+            <br />
+          
             </form>
            
 
           {message && <p>{message}</p>}
+
+          <button id="type" type="submit">sign in</button>
+            <p id="have">Don't have an account? <a href="./signup"></a>
+            <Link to='/signup' rel="">sign up</Link>
+            </p>
         </div>
     )
 }

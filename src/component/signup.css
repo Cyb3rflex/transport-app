@@ -5,7 +5,7 @@
     color: azure; */
 }
 #header{
-font-size: 15px;
+font-size: 10px;
 }
 #name{
     border-radius: 5px;
@@ -54,7 +54,7 @@ font-size: 15px;
     border: 1px solid;
     border-radius: 10px;
     width: 408px;
-    height: 555px;
+    height: 600px;
     margin-left: 467px;
     padding: 20px 70px;
     align-items: center;
@@ -91,9 +91,17 @@ font-size: 15px;
 #note{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 17px;
     /* text-align: center; */
     line-height: 29.05px;
     color: #000000;
-    
+    margin-left: 58px;
+}
+#agree{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    /* text-align: center; */
+    line-height: 29.05px;
+    color: #000000; 
 }
