@@ -10,6 +10,7 @@ return (
   <BrowserRouter>
   <div>
     <Routes>
+      {/* hello */}
     {/* <MyComponent/> */}
     <Route path='/' element={<SignUp/>}/>
     <Route path='/signup' element={<SignUp/>}/>
