@@ -32,7 +32,7 @@ const SignIn = () => {
             
             <form onSubmit={handleSignIn}>
             <div>
-             <label>Email</label> 
+             <label> Username or Email</label> 
              <br />
              <input
              id="value" 
@@ -45,6 +45,7 @@ const SignIn = () => {
             <div>
                 <label>password</label>
                 <input 
+                id="word"
                 type="password" 
                 value={password}
                 onChange={(e) => setPassword(e.target.vaue)}

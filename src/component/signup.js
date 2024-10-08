@@ -33,21 +33,20 @@ const SignUp = () => {
         }  
     };
    return (
-    <div  className='band'
-         >
-         <div id='base'>
-         <div id='option'>
-           <div id='header'>
-             <h1>Sign in to KWARA RIDE</h1>
-             <img className='image' src={image} alt="" />
-           </div>
+    <div>
+        <div id='base'>
+          <div id='option'>
+            <div id='header'>
+                <h1>Sign in to KWARA RIDE</h1>
+                <img className='image' src={image} alt="" />
+            </div>
            
             <form onSubmit={handleSubmit}>
                <div>
                 <div id='first'>
                    <div>
                      <label>
-                        Name <br />
+                        Surname <br />
                         <input id='name'
                              type='text'
                              name='name'
@@ -59,7 +58,7 @@ const SignUp = () => {
                     </div> <br />
                     <div>
                         <label>
-                            Username <br />
+                            Last name <br />
                             <input  id='user'
                             type='text'
                             name='username'
@@ -116,11 +115,11 @@ const SignUp = () => {
         </button>
              
        </form>
-     <p id='note'>Already have an accont? <a href="./signin"  ></a> 
-     <Link to='/signin'  rel=''>log in</Link>
-     </p>
-    </div>
-    </div>    
+         <p id='note'>Already have an account? <a href="./signin"  ></a> 
+        <Link to='/signin'  rel=''>log in</Link>
+        </p>
+         </div>
+      </div>    
     </div>
    )
      

@@ -4,57 +4,59 @@
     /* background-color: black;
     color: azure; */
 }
+#header{
+font-size: 15px;
+}
 #name{
     border-radius: 5px;
-    height: 63px;
-    width: 278px; 
+    height: 40px;
+    width: 172px; 
     border: 1px solid;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 24px;
     color: #000000;
     line-height: 29.05px;
+    gap: 20px;
+    padding-left: 10px;
 }
 #user{
     border-radius: 5px;
-    height: 63px;
-    width: 278px; 
+    height: 40px;
+    width: 172px; 
     border: 1px solid;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 24px;
     color: #000000;
     line-height: 29.05px;
+    padding-left: 10px;
 }
 #email{
     border-radius: 5px;
-    height: 63px;
-    width: 584px; 
+    height: 40px;
+    width: 384px; 
     border: 1px solid;
     gap: 30px;
+    padding-left: 10px;
 }
 #pass{
     border-radius: 5px;
-    height: 63px;
-    width: 584px; 
+    height: 40px;
+    width: 384px; 
     border: 1px solid;
     gap: 30px;
+    padding-left: 10px;
 }
-#option{
-    padding-top: 30px;
-    width: 500px;
-    height: 500px;
-}
- 
-
 #base{
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 20px;
     border: 1px solid;
-    width: 608px;
-    height: 715px;
-    margin-left: 367PX;
-    padding: 8px 12px;
+    border-radius: 10px;
+    width: 408px;
+    height: 555px;
+    margin-left: 467px;
+    padding: 20px 70px;
     align-items: center;
 }
 
@@ -63,31 +65,34 @@
     height: 30px;
 }
 #button{
-    height: 89px;
-    width: 590px;
+    height: 50px;
+    width: 400px;
     background-color: #000000;
     border-radius: 50px;
     color: #ffffff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
     line-height: 29.05px;
     font-size: 24px;
+    cursor: pointer;
 }
 #check{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     gap: 27px;
+    font-size: 10px;
 }
 #words{
     display: flex;
     align-items: center;
-    gap: 27px;
+    font-size: 20px;
+    gap: 7px;
 }
 #note{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 24px;
-    text-align: center;
+    /* text-align: center; */
     line-height: 29.05px;
     color: #000000;
     
