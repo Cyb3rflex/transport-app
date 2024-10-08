@@ -1,0 +1,39 @@
+#header{
+    display: flex;
+}
+.image{
+    width: 40px;
+    height: 30px;
+}
+#header{
+display: flex;
+flex-direction: row;
+}
+#but{
+    width: 430px;
+    height: 63px;
+    border-radius: 30px;
+    background-color: white;
+    color:  #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content:center ;
+    padding-top: 15px;
+    font-size: 23px;
+}
+#sign{
+    color: #000000;
+}
+.option{
+    border: 1px solid;
+    width: 500px;
+    padding: 20px 50px;
+    margin-left: 350px;
+}
+#value{
+height: 23px;
+width: 285px;
+border-radius: 10px;
+
+}
