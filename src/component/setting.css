@@ -1,0 +1,32 @@
+#o{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 35px;
+    background: #43a8f0;
+    border: none;
+    padding-top: 10px;
+}
+#olajide{
+    display: flex;
+    /* align-items: center; */
+    width: 500px;
+    height: 250px;
+    border: 1px solid #0ff14e;
+    
+    /* justify-content: space-between; */
+    padding: 10px 40px;
+    gap: 40px;
+}
+#mail{
+    text-transform: capitalize;
+}
+#mel{
+     color: #00000080;
+     border-bottom: 1px solid;
+}
+#ji{
+    color: #00000080;  
+}
+

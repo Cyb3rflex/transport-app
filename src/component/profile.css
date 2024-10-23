@@ -1,0 +1,208 @@
+#space{
+    display: flex;
+    gap: 100px;
+    /* margin-top: 50px; */
+    /* margin-left: 100px; */
+}
+#suit{
+    width: 180px;
+    height: 500px;
+    border: 1px solid #4ECB71;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+#src{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+#dash{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#phrase{
+    color: #05f649;
+}
+#names{
+    text-transform: capitalize;
+    gap: 0px;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#visual{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .5s ease-in-out;
+}
+#fame{
+    text-decoration: none;
+    color: #000;
+}
+#visual:hover{
+    background-color: #0FF14E;
+border-radius: 15px;
+padding: 5px;
+}
+#design{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .5s ease-in-out;
+}
+#design:hover{
+    background-color: #0FF14E;
+border-radius: 15px;
+padding: 5px;
+}
+#frame{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .5s ease-in-out;
+}
+#frame:hover{
+    background-color: #0FF14E;
+border-radius: 15px;
+padding: 5px;
+}
+#alt{
+    width: 24px;
+    height: 24px;
+}
+#pages{
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 20px 20px;
+    /* background: #000; */
+}
+
+#ride{
+    display: flex;
+}
+#image{
+    width: 50px;
+    height: 30px;
+}
+#page{
+    width: 500px;
+    height: 660px;
+    border: 1px solid #0FF14E;
+    padding: 30px;
+}
+#gallery{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+#two{
+    display: flex;
+    gap: 20px;
+}
+#paragraph{
+    text-transform: capitalize;
+    align-items: center;
+}
+#active{
+    color: #05f649;
+    text-transform: lowercase;
+}
+#test{
+    text-transform: capitalize;
+}
+#phase{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#symbol{
+    display: flex;
+    gap: 30px;
+}
+#bunch{
+    display: flex;
+    gap: 10px;
+}
+#group{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    width: 270px;
+    border-radius: 10px;
+    padding-left: 10px;
+    gap: 7px;
+}
+#call{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    width: 270px;
+    border-radius: 10px;
+    padding-left: 10px;
+    gap: 7px;
+}
+#program{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#dot{
+    display: flex;
+    align-items: center;
+}
+#line{
+    border: 1px solid;
+    padding-left: 10px;
+    /* padding-bottom: 10px; */
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#br{
+    height: 40px;
+}
+#park{
+    display: flex;
+    /* gap: 10px; */
+    align-items: center;
+}
+#after{
+    display: flex;
+    gap: 10px;
+}
+#menu{
+    display: flex;
+    gap: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+#activity{
+    color: #0FF14E;
+}
+#active{
+    width: 250px;
+    height: 80px;
+}
+#cancel{
+    width: 250px;
+    height: 80px;
+}
+#car{
+    width: 450px;
+}
+#dashboard{
+    text-decoration: none;
+    color: #000000;
+}
+#board{
+    display: flex;
+    /* gap: 10px; */
+    align-items: center;
+    /* transition: .5s ease-in-out; */
+}

@@ -1,0 +1,20 @@
+#combine{
+    display: flex;
+    gap: 20px;
+}
+#table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#rate{
+    width: 70vw;
+    height: 50px;
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid ;
+   border-radius: 10px;
+   background-color: #a49696;
+   align-items: center;
+   padding: 0 20px;
+}
