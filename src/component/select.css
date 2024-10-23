@@ -1,0 +1,49 @@
+#select{
+    width: 500px;
+    height: 400px;
+    border: 1px solid #0ff14e;
+    padding: 10px 30px;
+    align-content: center;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+#vehicle{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+#g{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    border: 1px solid #0ff14e;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    gap: 7px;
+}
+#c{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    border: 1px solid #0ff14e;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    gap: 7px;
+}
+#commercial{
+    width: 200px;
+    height: 100px;
+}
+#direction{
+    width: 150px;
+    height: 30px;
+    background-color: #0ff14e;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+#dth{
+    text-decoration: none;
+}
